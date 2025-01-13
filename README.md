@@ -20,7 +20,7 @@ Este projeto apresenta uma tela de login moderna e responsiva desenvolvida com H
 - Navegador moderno (Google Chrome, Firefox, etc.).
 - Editor de código para personalizações (Visual Studio Code, Sublime Text, etc.).
 
-## Previa
+## Prévia
 
 ![Previa da Tela de Login](./img/tela-login.png)
 
