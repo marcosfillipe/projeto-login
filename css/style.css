@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Fundo gradiente moderno */
+  color: #fff;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  width: 90%;
+  max-width: 400px;
+}
+
+.header {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.form-container {
+  padding: 30px 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background: #f3f3f3;
+  font-size: 14px;
+  transition: box-shadow 0.3s;
+}
+
+.form-container input:focus {
+  box-shadow: 0 0 5px rgba(38, 143, 255, 0.5);
+  outline: none;
+}
+
+.form-container button {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form-container button:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: translateY(-3px);
+}
+
+.form-container .error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 24px;
+  }
+
+  .form-container button {
+      font-size: 14px;
+  }
+}

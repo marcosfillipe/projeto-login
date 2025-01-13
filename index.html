@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tela de login moderna e responsiva com validação de informações.">
+    <meta name="keywords" content="login, responsivo, validação, HTML, CSS, SEO">
+    <meta name="author" content="Marcos Fillipe">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bem-vindo(a)</h1><br>
+            <span>Faça login para continuar</span>
+        </div>
+        <div class="form-container">
+            <form id="loginForm" onsubmit="return validateForm()">
+                <div class="error" id="error"></div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
